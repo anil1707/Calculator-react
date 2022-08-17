@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .calc {
+    width: 18rem;
+    margin: 2rem auto;
+    box-sizing: border-box;
+    border: 2px solid rgb(34, 19, 19);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    background-color: rgb(189, 186, 186);
+    /* box-shadow: 10px 7px #1d1b1b; */
+  }
+  
+  .ans {
+    background-color: #e2e2e2;
+    margin-bottom: 0.4rem;
+    padding: 7px;
+    font-size: 35px;
+    width: 16rem;
+    height: 4rem;
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 3px -8px #3d3b3b;
+  }
+  
+  .button {
+    background: #333;
+    height: 3rem;
+    width: 3.68rem;
+    color: white;
+    margin: 0.2rem;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px #141212;
+    float: left;
+  }
+  
+  .btn1 {
+    background: blue;
+  }
+  
+  .button:hover {
+    background-color: rgb(88, 86, 86);
+  }
+  
+  .btn1:hover {
+    background: rgb(54, 54, 163);
+  }
+  
+  .btnOp {
+    color: rgb(81, 10, 247);
+  }
+  
+  .btnOp:hover {
+    color: black;
+    background-color: rgb(221, 212, 212);
+    box-shadow: 3px 3px #141212;
+  }
+  
+
